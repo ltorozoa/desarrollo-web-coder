@@ -1,0 +1,504 @@
+/*******************************************************/
+/*						Header					   	   */	
+/*******************************************************/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+
+	background-color: #7B7273;
+	height: 100%; 
+	
+
+
+}
+
+.logo{
+
+	background-color: #7B7273;
+	color: white;
+	text-align: center;
+}
+
+.menus{
+
+	background-color: #7B7273;
+	margin left: 5px;
+	padding-left: 10%;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+}
+
+
+/*ul{
+
+	font-size: 0px;
+}
+
+li{
+
+	color: black;
+	display: inline-block;
+	width: 10%;
+	position: relative;
+	font-size: 14px;
+}
+
+ul ul{
+
+	position: absolute;
+	display: none;
+}
+
+ul ul li{
+
+	position: right;
+	display: block;
+	
+}
+
+ul li:hover ul{
+
+	display: block;
+	background-color: white;
+
+}*/
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #999b84;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/*******************************************************/
+/*						Main					   	   */	
+/*******************************************************/
+
+
+
+
+
+/*********************Historia********************************/
+
+/*Padre*/
+.Historia{
+
+	background-color: #CDBCAF;
+	height: 700px;
+	width: 1280px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+
+	/*align-items: center - Una sola Linea*/
+	align-content: center;
+
+}
+
+.Sobrebamwood, .SobrebamwoodTex, .UnaPropuestaTex, .UnaPropuesta {
+
+	width: 500px;
+	text-align: center;
+}
+
+.ImgHistoria{
+
+
+}
+
+/*Hijo1*/
+.Sobrebamwood{
+
+	color: white;
+	flex-grow: 1;
+}
+
+/*Hijo2*/
+.SobrebamwoodTex{
+
+	margin: 5px;
+	order: 1;
+	flex-grow: 1;
+
+}
+
+/*Hijo3*/
+.UnaPropuesta{
+
+	color: white;
+	flex-grow: 1;
+}
+
+/*Hijo4*/
+.UnaPropuestaTex{
+
+	margin: 5px;;
+	order: 2;
+	flex-grow: 1;
+
+}
+
+/*************************Principal*******************************/
+
+
+
+.titulos{
+	
+	margin: 5px;
+	padding-top: 60px;
+	color: #999b84;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+.parrafos{
+
+	margin: 10px;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 18px
+
+
+}
+
+.GaleriaInicio{
+
+	
+	background-color: #CDBCAF;
+	text-align: center;
+
+
+}
+
+td{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 15px;
+}
+
+th{
+
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 15px;
+}
+
+
+/********************** Productos ***********************/
+
+.ContenedorGrid{
+
+	width: 100%;
+	border: solid;
+	border: 10px;
+	font-size: 25px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.Propiedades{
+
+
+	display: block;
+	padding: 5px;
+	color: #fff;
+	background-color: #CDBCAF;
+
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 310px 310px 310px;
+	grid-gap: 15px;
+
+}
+
+.mascotas{
+
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+	grid-row-start: 2;
+	grid-row-end: 4;
+
+}
+
+#espacios{
+
+	padding-top: 100px;
+	font-size: 40px;
+}
+/*********************Salas*******************************/
+
+.PropiedadesSalas{
+
+	display: block;
+	padding: 15px;
+	color: #999b84;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 70px 310px 310px;
+	grid-gap: 15px;
+
+}
+
+
+.Salas{
+
+	grid-column-start: 2;
+	grid-column-end: 5;
+
+	grid-row-start: 1;
+	grid-row-end: 2;
+	text-align: center;
+}
+
+.Indice{
+
+	background-color: #CDBCAF;
+	grid-column-start: 1;
+	grid-column-end: 2;
+
+	grid-row-start: 1;
+	grid-row-end: 4;
+	text-align: center;
+}
+
+.Sofas{
+
+	grid-column-start: 2;
+	grid-column-end: 3;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
+}
+
+.Poltronas{
+
+	grid-column-start: 3;
+	grid-column-end: 4;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
+}
+
+.MesasDeCentro{
+
+	grid-column-start: 4;
+	grid-column-end: 5;
+
+	grid-row-start: 2;
+	grid-row-end: 3;
+	text-align: center;
+}
+
+.Decoracion{
+
+	grid-column-start: 3;
+	grid-column-end: 4;
+
+	grid-row-start: 3;
+	grid-row-end: 4;
+	text-align: center;
+}
+/********************** Asesoria ************************/
+.ImagenesAsesoriaInteriorismo{
+
+	background-image: url("img/Interiorismo.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	font-family:'Alegreya Sans SC', sans-serif;
+}
+
+.ImagenesAsesoriaComercial{
+
+	background-image: url("img/Espacios Comerciales.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.ImagenesAsesoriaOficinas{
+
+	background-image: url("img/Oficinas.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: white;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+/********************** Contactos ************************/
+
+.BotonesContacto{
+	background:#999b84; 
+	color: white;
+}
+
+
+.SubtitulosContacto{
+
+	padding-bottom: 110px;
+	color: #999b84;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+
+.SubtitulosFormulario{
+
+
+	padding-bottom: 110px;
+	background-color: #CDBCAF;
+	color: white;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 35px;
+	text-align: center;
+
+}
+
+
+.contenedor{
+
+	height: 750;
+	width: 1280px;
+	display: flex;
+	flex-direction: row;
+
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.Formulario{
+
+	
+	background-color: #CDBCAF;
+	padding-top: 150px;
+	width: 640px;
+	height: 750px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 17px;
+	text-align: center;
+	color: white;
+
+}
+
+.iconos{
+
+	padding-top: 150px;
+	width: 640px;
+	height: 750px;
+	text-align: center; 
+
+}
+
+.contenedorimagen{
+
+	animation-name: animacionsobre;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+
+}
+
+.imagen{
+
+	width: 200px;
+	height: 200px;
+}
+
+
+@keyframes animacionsobre{
+	from{
+
+
+		transform: rotateY(300deg); 
+	}
+	50%{
+
+		transform: rotateY(180deg);
+	 
+	  }
+
+	  70%{
+	  transform: scale(1.5)
+	   
+	  }
+	to{
+		transform:  scale(1) ;
+	}
+}
+
+
+
+/*******************************************************/
+/*						Footer					   	   */	
+/*******************************************************/
+
+footer{
+
+	padding-top: 20px;
+	color: white;
+	background-color: #7B7273;
+	height: 60px; 
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
