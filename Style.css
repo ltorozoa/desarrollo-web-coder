@@ -133,6 +133,15 @@ ul.breadcrumb li a:hover {
 
 }
 
+.parrafosH{
+
+	margin: 20px;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 15px;
+
+
+}
 .Sobrebamwood, .SobrebamwoodTex, .UnaPropuestaTex, .UnaPropuesta {
 
 	width: 500px;
@@ -157,7 +166,7 @@ ul.breadcrumb li a:hover {
 	margin: 5px;
 	order: 1;
 	flex-grow: 1;
-	font-size: 10px;
+	
 
 }
 
@@ -174,7 +183,7 @@ ul.breadcrumb li a:hover {
 	margin: 5px;;
 	order: 2;
 	flex-grow: 1;
-	font-size: 10px;
+
 }
 
 /*************************Principal*******************************/
