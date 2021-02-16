@@ -121,7 +121,6 @@ ul.breadcrumb li a:hover {
 
 	background-color: #CDBCAF;
 	height: 700px;
-	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -135,7 +134,7 @@ ul.breadcrumb li a:hover {
 
 .parrafosH{
 
-	padding: 8px;
+	padding: 10px;
 	text-align: center;
 	font-family: 'Alegreya Sans SC', sans-serif;
 	font-size: 15px;
