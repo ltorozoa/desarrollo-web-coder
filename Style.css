@@ -121,7 +121,7 @@ ul.breadcrumb li a:hover {
 
 	background-color: #CDBCAF;
 	height: 700px;
-	width: 1280px;
+	
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
