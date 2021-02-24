@@ -72,20 +72,29 @@ $Color-Textos:white;
 .Int{
 
     @extend %ImgComun;
-    background-image:url(file:///C:/Users/FAMILI~1/AppData/Local/Temp/Interiorismo.webp);
+    background-image:url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/Img/1.webp);
     
+}
+
+.Int:before{
+
+    content: '';
+    position: absolute;
+    background-color: #000;
+
+
 }
 
 .ES{
 
     @extend %ImgComun;
-    background-image:url(file:///C:/Users/FAMILI~1/AppData/Local/Temp/Espacios%20Comerciales.webp);
+    background-image:url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/Img/2.webp);
      
 }
 .Ofc {
 
     @extend %ImgComun;
-    background-image:url(file:///C:/Users/FAMILI~1/AppData/Local/Temp/Oficinas.webp);
+    background-image:url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/Img/3.webp);
  
 }
 
@@ -110,3 +119,4 @@ div{
         }
     }
 }
+

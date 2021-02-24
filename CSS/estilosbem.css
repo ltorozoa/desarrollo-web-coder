@@ -52,6 +52,11 @@
 .Int {
   background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/Img/1.webp); }
 
+.Int:before {
+  content: '';
+  position: absolute;
+  background-color: #000; }
+
 .ES {
   background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/Img/2.webp); }
 
