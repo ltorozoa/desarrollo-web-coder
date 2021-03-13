@@ -1,4 +1,22 @@
 @charset "UTF-8";
+.Int:before {
+  content: '';
+  position: absolute;
+  background-color: #000; }
+
+.Int, .ES, .Ofc {
+  width: 100%;
+  height: 600px; }
+
+.Int {
+  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/img/Interiorismo.jpg); }
+
+.ES {
+  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/img/EspaciosComerciales.jpg); }
+
+.Ofc {
+  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/img/Oficinas.jpg); }
+
 .contenedor {
   max-width: 1280px;
   padding: 0;
@@ -45,23 +63,6 @@
   text-align: center; }
 
 /*** Aplicando Variables y más estilos***/
-.Int, .ES, .Ofc {
-  width: 100%;
-  height: 600px; }
-
-.Int {
-  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/img/Interiorismo.jpg); }
-
-.Int:before {
-  content: '';
-  position: absolute;
-  background-color: #000; }
-
-.ES {
-  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/img/EspaciosComerciales.jpg); }
-
-.Ofc {
-  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/img/Oficinas.jpg); }
 
 div p {
   color: white;
