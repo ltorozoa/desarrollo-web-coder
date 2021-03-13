@@ -50,7 +50,7 @@
   height: 600px; }
 
 .Int {
-  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/Img/1.webp); }
+  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/img/1.webp); }
 
 .Int:before {
   content: '';
@@ -58,10 +58,10 @@
   background-color: #000; }
 
 .ES {
-  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/Img/2.webp); }
+  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Git/Repositorio/img/2.webp); }
 
 .Ofc {
-  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/Img/3.webp); }
+  background-image: url(file:///C:/Users/Familia%20Toro/Desktop/Desarrollo%20WEB/Proyecto/BAMWOOD/Sublime%20Text/img/3.webp); }
 
 div p {
   color: white;
